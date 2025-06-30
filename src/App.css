@@ -1,0 +1,7 @@
+.main {
+    background-image : url('../public/img.svg');
+    height : 60vh;
+    background-position : center;
+    background-size : cover;
+    background-repeat : no-repeat;
+}
