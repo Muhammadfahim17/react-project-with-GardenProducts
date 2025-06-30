@@ -19,7 +19,9 @@ const Layout = () => {
                     <details className='flex flex-col sm:hidden'>
                     <summary className="text-[#282828] font-[600] text-[18px] cursor-pointer">Menu</summary>
                     <ul className='flex flex-col gap-[10px] sm:flex  items-center sm:gap-[25px] text-[#282828] font-[500]'>
+                        <Link to={'/'}>
                         <li>Main Page</li>
+                        </Link>
                         <Link to={'/categories'}>
                         <li>Categories</li>
                         </Link>
@@ -30,7 +32,9 @@ const Layout = () => {
                     </ul>
                     </details>
                     <ul className='hidden    sm:flex  items-center sm:gap-[40px] text-[#282828] font-[500]'>
+                        <Link>
                         <li>Main Page</li>
+                        </Link>
                         <Link to={'./categories'}>
                         <li>Categories</li>
                         </Link>
